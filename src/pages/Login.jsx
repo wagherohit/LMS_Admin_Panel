@@ -19,20 +19,10 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.get('http://localhost:3000/Users');
+      sessionStorage.setItem("userData", JSON.stringify(res.data));
       const users = res.data;
 
-      // const user = users.find(
-      //   (u) =>
-      //     u.username === formData.username &&
-      //     u.userpass === formData.password
-      // );
-
-      // if (user) {
-      //   setError('');
-      //   navigate('/dashboard');
-      // } else {
-      //   setError('Invalid username or password');
-      // }
+      
 
       setFormData(users);
       navigate('/dashboard');

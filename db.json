@@ -23,6 +23,14 @@
       "email": "sanskruti@123gmail.com",
       "course": "Advanced Web Development",
       "profile_image": "https://cdn.pixabay.com/photo/2020/05/10/20/53/woman-5155503_1280.png"
+    },
+    {
+      "id": "8a99",
+      "first_name": "Rohit",
+      "last_name": "Waghe",
+      "email": "rohitwaghe45@gmail.com",
+      "course": "fsdfsd",
+      "profile_image": "https://cdn.pixabay.com/photo/2024/08/01/18/20/anime-8937912_1280.png"
     }
   ],
   "Courses": [
@@ -129,6 +137,19 @@
       "language": "English",
       "price": "199",
       "image": "https://cdn.pixabay.com/photo/2018/05/03/21/49/html5-3372584_1280.png"
+    },
+    {
+      "id": "4266",
+      "title": "fdgd",
+      "category": "sfg",
+      "instructor": "dsfsg",
+      "duration": "fdg",
+      "level": "Intermediate",
+      "rating": "0.1",
+      "students_enrolled": "1",
+      "language": "dsfsd",
+      "price": "10",
+      "image": "https://media.istockphoto.com/id/616902766/photo/dedicated-to-software-development.jpg?s=2048x2048&w=is&k=20&c=aB3-ZpnrAUF6L76tPDwrtYMTpj06RAUhT1kkkcSJwJw="
     }
   ],
   "Users": [
