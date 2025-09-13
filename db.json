@@ -150,6 +150,19 @@
       "language": "dsfsd",
       "price": "10",
       "image": "https://media.istockphoto.com/id/616902766/photo/dedicated-to-software-development.jpg?s=2048x2048&w=is&k=20&c=aB3-ZpnrAUF6L76tPDwrtYMTpj06RAUhT1kkkcSJwJw="
+    },
+    {
+      "id": "6903",
+      "title": "Actor Studio",
+      "category": "acting",
+      "instructor": "Rohit Dakhle",
+      "duration": "6 month",
+      "level": "Intermediate",
+      "rating": "4",
+      "students_enrolled": "100",
+      "language": "English",
+      "price": "499",
+      "image": "https://cdn.pixabay.com/photo/2025/09/03/13/33/cat-9813484_1280.jpg"
     }
   ],
   "Users": [
