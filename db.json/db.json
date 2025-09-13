@@ -1,0 +1,141 @@
+{
+  "Students": [
+    {
+      "id": "b319",
+      "first_name": "Rohit",
+      "last_name": "Waghe",
+      "email": "rohitwaghe45@gmail.com",
+      "course": "Advanced Web Development",
+      "profile_image": "https://cdn.pixabay.com/photo/2024/08/01/18/20/anime-8937912_1280.png"
+    },
+    {
+      "id": "f80e",
+      "first_name": "Seems",
+      "last_name": "Yadhav",
+      "email": "Seems@143gmail.com",
+      "course": "Web Devlopment",
+      "profile_image": "https://cdn.pixabay.com/photo/2023/09/02/07/42/ai-generated-8228388_1280.png"
+    },
+    {
+      "id": "d82f",
+      "first_name": "Sanskruti",
+      "last_name": "Ghete",
+      "email": "sanskruti@123gmail.com",
+      "course": "Advanced Web Development",
+      "profile_image": "https://cdn.pixabay.com/photo/2020/05/10/20/53/woman-5155503_1280.png"
+    }
+  ],
+  "Courses": [
+    {
+      "id": "1",
+      "title": "Introduction to Python",
+      "category": "Programming",
+      "instructor": "Jane Doe",
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "rating": 4.7,
+      "students_enrolled": 1200,
+      "language": "English",
+      "price": 49.99,
+      "image": "./python.avif"
+    },
+    {
+      "id": "2",
+      "title": "Advanced Web Development",
+      "category": "Web Development",
+      "instructor": "John Smith",
+      "duration": "8 weeks",
+      "level": "Advanced",
+      "rating": 4.9,
+      "students_enrolled": 800,
+      "language": "English",
+      "price": 79.99,
+      "image": "./web.avif"
+    },
+    {
+      "id": "3",
+      "title": "Data Analysis with Excel",
+      "category": "Data Science",
+      "instructor": "Emily Johnson",
+      "duration": "4 weeks",
+      "level": "Intermediate",
+      "rating": 4.5,
+      "students_enrolled": 500,
+      "language": "English",
+      "price": 29.99,
+      "image": "./dataanyalist.avif"
+    },
+    {
+      "id": "4",
+      "title": "Machine Learning A-Z",
+      "category": "Artificial Intelligence",
+      "instructor": "Michael Brown",
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "rating": 4.8,
+      "students_enrolled": 1500,
+      "language": "English",
+      "price": 99.99,
+      "image": "./m.avif"
+    },
+    {
+      "id": "5",
+      "title": "UI/UX Design Principles",
+      "category": "Design",
+      "instructor": "Sara Lee",
+      "duration": "5 weeks",
+      "level": "Beginner",
+      "rating": 4.6,
+      "students_enrolled": 300,
+      "language": "English",
+      "price": 39.99,
+      "image": "./ui.avif"
+    },
+    {
+      "id": "69f6",
+      "title": "MernStack Devlopment",
+      "category": "Web Devlopment",
+      "instructor": "Rohit Waghe",
+      "duration": "6 Month",
+      "level": "Intermediate",
+      "rating": "5",
+      "students_enrolled": "100",
+      "language": "English",
+      "price": "99",
+      "image": "https://media.istockphoto.com/id/616902766/photo/dedicated-to-software-development.jpg?s=2048x2048&w=is&k=20&c=aB3-ZpnrAUF6L76tPDwrtYMTpj06RAUhT1kkkcSJwJw="
+    },
+    {
+      "id": "4406",
+      "title": "UPSC Trainer",
+      "category": "Civil Service",
+      "instructor": "Rohima ",
+      "duration": "6 Month",
+      "level": "Advanced",
+      "rating": "4.9",
+      "students_enrolled": "1200",
+      "language": "English",
+      "price": "499",
+      "image": "https://media.istockphoto.com/id/2159085435/photo/hand-of-a-person-marking-answers-in-omr-sheet-neet-jee-exam-centre-hall-student-teacher-time.jpg?s=2048x2048&w=is&k=20&c=RRh7azSrG9RKXJGAFkPSjUcWedDcs3xncQfcAbk3ToM="
+    },
+    {
+      "id": "8123",
+      "title": "HTML Devloper",
+      "category": "Web Devlopment",
+      "instructor": "Sanskruti Ghete",
+      "duration": "6 Month",
+      "level": "Beginner",
+      "rating": "4.9",
+      "students_enrolled": "200",
+      "language": "English",
+      "price": "199",
+      "image": "https://cdn.pixabay.com/photo/2018/05/03/21/49/html5-3372584_1280.png"
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "username": "rohitwaghe45",
+      "userpass": "Rohit@123"
+    }
+  ]
+}
