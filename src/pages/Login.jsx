@@ -21,18 +21,21 @@ const Login = () => {
       const res = await axios.get('http://localhost:3000/Users');
       const users = res.data;
 
-      const user = users.find(
-        (u) =>
-          u.username === formData.username &&
-          u.userpass === formData.password
-      );
+      // const user = users.find(
+      //   (u) =>
+      //     u.username === formData.username &&
+      //     u.userpass === formData.password
+      // );
 
-      if (user) {
-        setError('');
-        navigate('/dashboard');
-      } else {
-        setError('Invalid username or password');
-      }
+      // if (user) {
+      //   setError('');
+      //   navigate('/dashboard');
+      // } else {
+      //   setError('Invalid username or password');
+      // }
+
+      setFormData(users);
+      navigate('/dashboard');
     } catch (err) {
       setError('Failed to connect to server');
     }
