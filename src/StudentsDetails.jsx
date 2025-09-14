@@ -23,7 +23,7 @@ const StudentsDetails = () => {
     
   return (
     <>
-       <Navbar/>
+      
       <div className='container-fluid mt-5 bg-dark' style={{minHeight:'95vh'}}>
         <div className='row'>
             <div className='col-md-4 mt-5'>

@@ -2,6 +2,8 @@ import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import emailjs from "emailjs-com";
+
 
 const AddStudent = () => {
     const [first_name, setFirst_name] = useState('')
@@ -20,6 +22,16 @@ const saveForm = async(e)=>{
 
     const formdata = {first_name,last_name,email,course,profile_image}
     try{
+        
+      // ⿡ Send Email to Admin
+      await emailjs.send(
+        "service_ov0v3ke",   // replace with EmailJS service ID
+        "template_hsxm7pc",  // replace with EmailJS template ID
+        formdata,
+        "1c3BYbq-0MO8aAiDH"    // replace with EmailJS public key
+      );
+
+
           const response = await axios.post('http://localhost:3000/Students', formdata)
           console.log( "Students add Succesfully",response.data)
            

@@ -16,20 +16,31 @@ const Login = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await axios.get('http://localhost:3000/Users');
-      sessionStorage.setItem("userData", JSON.stringify(res.data));
-      const users = res.data;
+  e.preventDefault();
+  try {
+    const res = await axios.get('http://localhost:3000/Users');
+    const users = res.data;
 
-      
+    const user = users.find(
+      (u) => u.username === formData.username && u.userpass === formData.password
+    );
 
-      setFormData(users);
+    if (user) {
+      // Don't store password in sessionStorage
+      sessionStorage.setItem("userData", JSON.stringify({
+        id: user.id,
+        username: user.username
+      }));
       navigate('/dashboard');
-    } catch (err) {
-      setError('Failed to connect to server');
+    } else {
+      setError('Invalid username or password');
     }
-  };
+  } catch (err) {
+    setError('Failed to connect to server');
+  }
+};
+
+
 
   return (
    <>

@@ -25,12 +25,20 @@
       "profile_image": "https://cdn.pixabay.com/photo/2020/05/10/20/53/woman-5155503_1280.png"
     },
     {
-      "id": "8a99",
-      "first_name": "Rohit",
-      "last_name": "Waghe",
-      "email": "rohitwaghe45@gmail.com",
-      "course": "fsdfsd",
+      "id": "6cd2",
+      "first_name": "Dark",
+      "last_name": "Beauty",
+      "email": "beauty@gmail.com",
+      "course": "Web Devlopment",
       "profile_image": "https://cdn.pixabay.com/photo/2024/08/01/18/20/anime-8937912_1280.png"
+    },
+    {
+      "id": "1561",
+      "first_name": "Dark",
+      "last_name": "ShaDow",
+      "email": "shadow@gmail.com",
+      "course": "Advanced Web Development",
+      "profile_image": "https://cdn.pixabay.com/photo/2018/04/10/04/36/girls-3306351_1280.png"
     }
   ],
   "Courses": [
