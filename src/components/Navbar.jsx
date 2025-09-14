@@ -4,6 +4,13 @@ import { NavLink, useNavigate } from "react-router-dom";
 function Navbar() {
 
   const nav = useNavigate()
+    const userData = JSON.parse(sessionStorage.getItem('userData'));
+
+
+  const handleLogout = () => {
+    sessionStorage.removeItem('userData');
+    nav('/');
+  };
   return (
     <nav className="navbar bg-body fixed-top">
       <div className="container-fluid">
@@ -58,9 +65,26 @@ function Navbar() {
                 </NavLink>
               </li>
             </ul>
+
+            <div className="mt-3">
+               {userData && (
+            <div className="text-white">
+              <div className="me-3 ">
+                <div><strong>{userData.username}</strong></div>
+                <div className="mt-3">
+                  <img style={{borderRadius:"50px", width:'200px'}} className="img-fluid" src={userData.profile} alt="profile" />
+                </div>
+              </div>
+            </div>
+          )}
+
           <div className="mt-3">
-            <button onClick={()=> nav('/')} className="btn btn-danger">Logout</button>
+            <button className="btn btn-danger btn-sm" onClick={handleLogout}>
+                Logout
+              </button>
           </div>
+            </div>
+         
           </div>
         </div>
       </div>

@@ -29,7 +29,8 @@ const Login = () => {
       // Don't store password in sessionStorage
       sessionStorage.setItem("userData", JSON.stringify({
         id: user.id,
-        username: user.username
+        username: user.username,
+        profile: user.profile
       }));
       navigate('/dashboard');
     } else {
