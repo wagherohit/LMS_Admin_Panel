@@ -18,7 +18,7 @@ const CoursesCard = () => {
     }
   }
 
-  console.log(data)
+  
 
   useEffect(() => {
    getdata()
