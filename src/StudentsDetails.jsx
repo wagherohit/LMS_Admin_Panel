@@ -11,8 +11,7 @@ const StudentsDetails = () => {
      const { id } = useParams();
 
     const getstudent= async ()=>{
-        const response = await axios.get(`http://localhost:3000/Students/${id}`)
-        console.log(response.data)
+        const response = await axios.get(`https://lms-backend-vlug.onrender.com/Students/${id}`)
 
         setStudent(response.data)
     }
