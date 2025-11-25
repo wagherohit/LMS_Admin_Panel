@@ -47,6 +47,14 @@
       "email": "suraj@gmail.com",
       "course": "UI/UX Designer",
       "profile_image": "https://cdn.pixabay.com/photo/2020/05/10/20/53/woman-5155503_1280.png"
+    },
+    {
+      "id": "72aa",
+      "first_name": "Sakshi",
+      "last_name": "sharma",
+      "email": "sakshi@gmail.com",
+      "course": "UI/UX Designer",
+      "profile_image": "https://cdn.pixabay.com/photo/2018/04/10/04/36/girls-3306351_1280.png"
     }
   ],
   "Courses": [
@@ -179,6 +187,19 @@
       "language": "English",
       "price": "499",
       "image": "https://cdn.pixabay.com/photo/2025/09/03/13/33/cat-9813484_1280.jpg"
+    },
+    {
+      "id": "b312",
+      "title": "mern stack",
+      "category": "Web Devlopment",
+      "instructor": "pratik sir",
+      "duration": "1 month",
+      "level": "Advanced",
+      "rating": "5",
+      "students_enrolled": "2",
+      "language": "English",
+      "price": "10",
+      "image": "https://media.istockphoto.com/id/616902766/photo/dedicated-to-software-development.jpg?s=2048x2048&w=is&k=20&c=aB3-ZpnrAUF6L76tPDwrtYMTpj06RAUhT1kkkcSJwJw="
     }
   ],
   "Users": [
@@ -186,7 +207,7 @@
       "id": "1",
       "username": "rohitwaghe45",
       "userpass": "Rohit@123",
-      "profile":"https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?s=2048x2048&w=is&k=20&c=DIrQNh74utZ0e_1sqZ-M47jIqXc34ThnswFTm1dNiUI="
+      "profile": "https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?s=2048x2048&w=is&k=20&c=DIrQNh74utZ0e_1sqZ-M47jIqXc34ThnswFTm1dNiUI="
     }
   ]
 }

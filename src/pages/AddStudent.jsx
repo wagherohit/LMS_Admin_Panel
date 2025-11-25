@@ -32,7 +32,7 @@ const saveForm = async(e)=>{
       );
 
 
-          const response = await axios.post('http://localhost:3000/Students', formdata)
+          const response = await axios.post('https://lms-backend-vlug.onrender.com/Students', formdata)
           console.log( "Students add Succesfully",response.data)
            
               nav('/students')

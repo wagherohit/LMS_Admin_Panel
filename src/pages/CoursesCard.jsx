@@ -9,7 +9,7 @@ const CoursesCard = () => {
   const getdata = async()=>{
       
     try{
-        const response = await axios.get('http://localhost:3000/Courses')
+        const response = await axios.get('https://lms-backend-vlug.onrender.com/Courses')
     
     setData(response.data)
     console.log(data)

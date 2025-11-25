@@ -22,7 +22,7 @@ const EditUser = () => {
 
   const fetchUser = async () => {
     try {
-      const result = await axios.get(`http://localhost:3000/Students/${id}`);
+      const result = await axios.get(`https://lms-backend-vlug.onrender.com/Students/${id}`);
       console.log(result);
       console.log(result.data);
 
@@ -48,7 +48,7 @@ const EditUser = () => {
     e.preventDefault();
 
     try {
-      await axios.put(`http://localhost:3000/Students/${id}`, data);
+      await axios.put(`https://lms-backend-vlug.onrender.com/Students/${id}`, data);
       alert("User Successfully Updated");
       console.log(data);
       nav("/students");

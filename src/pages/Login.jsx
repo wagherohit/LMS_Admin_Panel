@@ -18,7 +18,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const res = await axios.get('http://localhost:3000/Users');
+    const res = await axios.get('https://lms-backend-vlug.onrender.com/Users');
     const users = res.data;
 
     const user = users.find(

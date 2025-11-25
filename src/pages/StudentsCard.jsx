@@ -29,7 +29,7 @@ const StudentsCard = () => {
     const result = studentdata.filter((val) => val.id !== id);
     setStudentdata(result);
 
-    await axios.delete(`http://localhost:3000/Students/${id}`);
+    await axios.delete(`https://lms-backend-vlug.onrender.com/Students/${id}`);
   };
 
   return (

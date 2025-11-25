@@ -32,7 +32,7 @@ const Form = () => {
      
   
      try{
-      const response = await axios.post('http://localhost:3000/Courses',formData)
+      const response = await axios.post('https://lms-backend-vlug.onrender.com/Courses',formData)
        console.log( 'Courses Add Succefuly...!' ,response.data)
 
        navigate('/courses')
