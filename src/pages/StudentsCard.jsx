@@ -11,7 +11,7 @@ const StudentsCard = () => {
 
   const getdata = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/Students");
+      const response = await axios.get("https://lms-backend-vlug.onrender.com/Students");
       const result = response.data;
       setStudentdata(result);
     } catch (error) {

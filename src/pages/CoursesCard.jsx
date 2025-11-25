@@ -12,7 +12,6 @@ const CoursesCard = () => {
         const response = await axios.get('https://lms-backend-vlug.onrender.com/Courses')
     
     setData(response.data)
-    console.log(data)
     }
     catch(err){
          console.log(err)
